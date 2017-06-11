@@ -1,0 +1,3 @@
+With this scraper you could retrieve all cars from the site autoscout24 with special criteria and put them in a table.
+I use the https://scraperwiki.com/scrapers/autoscout_golf/ file of Alberto as basis.
+I found out how to change the Golf to a Maxi :-)
