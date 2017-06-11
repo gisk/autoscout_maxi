@@ -31,7 +31,7 @@ $pageurl = "http://www.autoscout24.nl/ListGN.aspx?brdcrmb=color&vis=1&state=A&at
         $car = str_replace("€ ", "", $car); # remove "€ " from price
         $car = str_replace("false", "''", $car); # remove false from strings
         $car = str_replace("true", "''", $car); # remove true from strings
-        $car = explode("','",$car); # break into single items
+        $car = explode("''",$car); # break into single items
         //if (strpos(strtolower($car[11]),"var.") > 0 ) continue; //skip variant
         //if (strpos(strtolower($car[11]),"variant") > 0 ) continue; //skip variant
         //if (strpos(strtolower($car[11]),"cabrio") > 0 ) continue; //skip cabrio
