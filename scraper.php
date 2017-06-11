@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
 // original script from: https://scraperwiki.com/scrapers/autoscout_golf/
 
 require 'scraperwiki/simple_html_dom.php';
